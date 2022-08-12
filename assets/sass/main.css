@@ -29,6 +29,7 @@ header nav .logo a img {
 header nav .logo #dropdown__btn {
   justify-self: end;
   font-size: 2.5em;
+  padding: 0.5em 0;
   color: white;
   grid-column: 2;
   grid-row: 1;
@@ -233,7 +234,6 @@ footer .footer__bar #footerBtn .pil {
 .article-klassisk h2 {
   color: hsl(275deg, 55%, 33%);
   font-weight: bold;
-  padding-bottom: 3vh;
 }
 .article-klassisk h3 {
   margin: 2em 0 1em;
@@ -246,7 +246,7 @@ footer .footer__bar #footerBtn .pil {
 .article-klassisk .bilde-klassisk {
   max-width: 80vw;
   box-shadow: 0px 6px 15px 0px rgba(39, 76, 103, 0.1);
-  margin: 0 auto;
+  margin: 1em auto 0;
 }
 .article-klassisk .kontaktOss {
   font-weight: bold;
@@ -422,6 +422,5 @@ footer .footer__bar #footerBtn .pil {
   }
   .article-klassisk .bilde-klassisk {
     max-width: 30vw;
-    margin: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */
