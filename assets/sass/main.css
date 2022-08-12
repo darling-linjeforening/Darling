@@ -198,8 +198,11 @@ footer .footer__bar #footerBtn .pil {
   top: -10px;
 }
 
-@media screen and (min-width: 960) {
+@media screen and (min-width: 500px) {
   header a:hover {
     opacity: 50%;
+  }
+  main #article-header {
+    background-color: hsl(17deg, 100%, 62%);
   }
 }/*# sourceMappingURL=main.css.map */
