@@ -21,7 +21,9 @@ header {
 
             img {
                 max-height: 8vh;
-                padding: 6vh 0 0;
+                padding: 4vh 0;
+                display: flex;
+                justify-self: start;
             }
         }
 
@@ -31,7 +33,7 @@ header {
             position: absolute;
             top: 0;
             right: 0;
-            margin: 6vh 8vw;
+            margin: 5vh 8vw;
             padding: 2vh 0;
         }
 
