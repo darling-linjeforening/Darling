@@ -90,13 +90,18 @@ main {
         max-width: 100vw;
         background-color: $royal;
         padding: 8vh 5vw 12vh 5vw;
-        max-height: 55vh;
+        max-height: 65vh;
 
         h2 {
             max-width: 20ch;
+
         }
         h2, p {
             color: $lavendel-lys;
+            line-height: 130%;
+        }
+        p {
+            max-width: 38ch;
         }
     }
     .header-graphic {
@@ -109,6 +114,9 @@ main {
             left: 64vw;
             top: -11vh;
         }
+    }
+    #article-header-desktop {
+        display: none;
     }
 
     #article-main {
@@ -170,6 +178,9 @@ main {
                     width: 18vw;
                     font-size: 12px;
                 }
+            }
+            .card__dots {
+                display: none;
             }
         }
     }
