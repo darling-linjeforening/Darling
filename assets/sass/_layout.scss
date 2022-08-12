@@ -216,6 +216,9 @@ footer {
     p {
         font-size: 15px;
     }
+    .footer__googlemaps {
+        display: none;
+    }
 
     .footer__adresse, .footer__some, .footer__kontakt {
         padding-bottom: 3vh;
