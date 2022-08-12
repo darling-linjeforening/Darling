@@ -23,8 +23,8 @@ function handleTabletChange(e) {
 
         dropdownContent.classList.add("dropdown__content");
 
-        dropdownBtn.style.display = "flex";
-        dropdownBtnClose.style.display = "flex";
+        dropdownBtn.style.display = "block";
+        dropdownBtnClose.style.display = "block";
 
         dropdownBtn.onclick = function() {
             dropdown.style.visibility = "visible";
