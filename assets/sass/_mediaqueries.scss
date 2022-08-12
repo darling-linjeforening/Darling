@@ -1,10 +1,52 @@
-@media screen and (min-width: 960) {
+@media screen and (min-width: 500px) {
     header {
-    
-        a:hover {
-            opacity: 50%;
+
+        nav {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 3fr 1fr;
+            align-items: center;
+            padding: .5em 1em;
+
+            .logo {
+                grid-column: 1;
+                grid-row: 1;
+
+                img {
+                    max-height: 5vh;
+                    padding: 0;
+                    align-self: center;
+                }
+            }
+
+            #dropdown {
+                grid-column: 2;
+                grid-row: 1;
+                justify-content: center;
+            }
+
+            .some {
+                display: flex;
+                grid-column: 3;
+                grid-row: 1;
+                max-height: 5vh;
+                justify-content: end;
+
+                img {
+                    margin: 0 1em 0;
+                }
+
+                img:hover {
+                    opacity: .5;
+                }
+            }
+
         }
-        
-        
+    }
+
+    main {
+        #article-header{
+            background-color: $nemo;
+        }
     }
 }

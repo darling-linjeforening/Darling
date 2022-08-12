@@ -14,72 +14,81 @@ header {
     background-color: $royal;
     // box-shadow: 0px 6px 15px 0px rgba(39,76,103,0.10);
 
-    .logo {
-        max-height: 10vh;
-        padding: 6vh 0 0;
-    }
+    nav {
 
-    #dropdown__btn {
-        align-self: flex-end;
-        font-size: 2em;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 8vw;
-    }
+        .logo {
 
-    a {
-        color: white;
-    }
-
-    a:hover {
-        opacity: 50%;
-    }
-
-
-    
-    #dropdown {
-        display: flex;
-
-        .dropdown__content {
-            color: white;
-
-            display: flex !important;
-            flex-direction: column !important;
-
-            min-height: 100vh;
-            min-width: 100vw;
-            background-color: $royal;
-            z-index: 1;
-
-
-            #dropdown__btn--close {
-                align-self: flex-end;
-                font-size: 2em;
-                margin: 0 8vw;
-                padding: 0 5px;
-            }
-
-            a {
-                text-decoration: none;
-                padding: 2rem 2rem 0;
+            img {
+                max-height: 10vh;
+                padding: 6vh 0 0;
             }
         }
 
-        // added with javascript when user uses desktop
-        .dropdown__content--desktop {
-            color: white;
-
-            display: flex;
-            flex-direction: row;
+        #dropdown__btn {
+            align-self: flex-end;
+            font-size: 2em;
             position: absolute;
-
-            a {
-                text-decoration: none;
-                padding: 2rem 2rem 0;
-            }
+            top: 0;
+            right: 0;
+            margin: 6vh 8vw;
+            padding: 2vh 0;
         }
 
+        a {
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .some {
+            display: none;
+        }
+
+        #dropdown {
+            display: flex;
+
+            .dropdown__content {
+                color: white;
+
+                display: flex !important;
+                flex-direction: column !important;
+
+                min-height: 100vh;
+                min-width: 100vw;
+                background-color: $royal;
+                z-index: 1;
+
+                #dropdown__btn--close {
+                    align-self: flex-end;
+                    font-size: 2em;
+                    margin: 0 8vw;
+                    padding: 0 5px;
+                }
+
+                a {
+                    text-decoration: none;
+                    padding: 2rem 2rem 0;
+                }
+            }
+
+            // added with javascript when user uses desktop
+            .dropdown__content--desktop {
+                color: white;
+
+                display: flex;
+                flex-direction: row;
+
+                a {
+                    text-decoration: none;
+                    padding: 0 1.5em 0;
+                }
+
+                a:hover {
+                    opacity: .5;
+                }
+            }
+
+        }
     }
 }
 
@@ -235,3 +244,12 @@ footer {
 }
 
 
+// enkel styling til de andre sidene
+.article-klassisk {
+    margin: 2em auto;
+    max-width: 60vw;
+}
+
+.paragraf-klassisk {
+    max-width: 70ch;
+}
