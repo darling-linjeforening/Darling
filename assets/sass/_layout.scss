@@ -3,8 +3,10 @@
 
 body {
     background-color: $lavendel;
-    margin: 0;
+    max-width: 100vw;
     padding: 0;
+    margin: 0;
+    font-family: $roboto;
 }
 
 header {
@@ -46,5 +48,82 @@ header {
 
     }
 
+main {
+    max-width: 100vw;
+
+    #article-header{
+        max-width: 100vw;
+        background-color: $royal;
+        padding: 20vw 5vh;
+
+        h2 {
+            max-width: 20ch;
+        }
+        h2, p {
+            color: $lavendel-lys;
+        }
+    }
+
+    article {
+        max-width: 90vw;
+        margin: 0 auto;
+        margin-bottom: 10vh;
+
+        p {
+            color: $font;
+            line-height: 130%;
+        }
+
+        h2 {
+            color: $royal;
+            font-weight: bolder;
+            font-size: 22px;
+        }
+        #unique-h2 {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 25ch;
+            padding-bottom: 5vh;
+        }
+
+        .cards {
+            display: grid;
+            max-width: auto;
+
+            .card {
+                background-color: $lavendel-lys;
+                max-width: auto;
+                height: auto;
+                margin-bottom: 20px;
+                border-radius: 5%; 
+                box-shadow: 0px 6px 15px 0px rgba(39,76,103,0.10);
+                padding: 10px 0;
+
+                p {
+                    max-width: auto;
+                    padding: 0 10vw;
+                }
+                h3 {
+                    text-align: center;
+                    color: $royal;
+                    font-weight: bolder;
+                }
+                .lesmerBtn {
+                    text-decoration: none;
+                    padding: 7px 10px;
+                    background-color: $nemo;
+                    color: white;
+                    border-radius: 8px;
+                    box-shadow: 0px 6px 15px 0px rgba(39,76,103,0.10);
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin: 30px auto 10px auto;
+                    display: block;
+                    width: 18vw;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
 }
 
