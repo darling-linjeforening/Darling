@@ -18,6 +18,7 @@ main #article-header {
 }
 main #article-header h2 {
   max-width: 20ch;
+  padding-bottom: 10px;
 }
 main #article-header h2, main #article-header p {
   color: #F3EAF6;
