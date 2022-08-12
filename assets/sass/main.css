@@ -146,12 +146,6 @@ main #article-main .cards .card .lesmerBtn {
   font-size: 12px;
 }
 
-
-@media screen and (min-width: 960) {
-  header a:hover {
-    opacity: 50%;
-  }
-
 footer {
   background-color: hsl(275deg, 55%, 33%);
   height: auto;
@@ -202,5 +196,10 @@ footer .footer__bar #footerBtn {
 footer .footer__bar #footerBtn .pil {
   width: 18px;
   top: -10px;
+}
 
+@media screen and (min-width: 960) {
+  header a:hover {
+    opacity: 50%;
+  }
 }/*# sourceMappingURL=main.css.map */
