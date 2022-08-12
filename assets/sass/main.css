@@ -69,7 +69,8 @@ main {
 main #article-header {
   max-width: 100vw;
   background-color: hsl(275deg, 55%, 33%);
-  padding: 20vw 5vh;
+  padding: 8vh 5vw 12vh 5vw;
+  max-height: 55vh;
 }
 main #article-header h2 {
   max-width: 20ch;
@@ -77,31 +78,42 @@ main #article-header h2 {
 main #article-header h2, main #article-header p {
   color: #F3EAF6;
 }
-main article {
+main .header-graphic {
+  height: 1px;
+}
+main .header-graphic img {
+  width: 28vw;
+  transform: rotate(343deg);
+  position: relative;
+  left: 64vw;
+  top: -11vh;
+}
+main #article-main {
   max-width: 90vw;
   margin: 0 auto;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
 }
-main article p {
+main #article-main p {
   color: #3E3E3E;
   line-height: 130%;
 }
-main article h2 {
+main #article-main h2 {
   color: hsl(275deg, 55%, 33%);
   font-weight: bolder;
   font-size: 22px;
 }
-main article #unique-h2 {
+main #article-main #unique-h2 {
   text-align: center;
   margin: 0 auto;
   max-width: 25ch;
   padding-bottom: 5vh;
+  padding-top: 11vh;
 }
-main article .cards {
+main #article-main .cards {
   display: grid;
   max-width: auto;
 }
-main article .cards .card {
+main #article-main .cards .card {
   background-color: #F3EAF6;
   max-width: auto;
   height: auto;
@@ -110,16 +122,16 @@ main article .cards .card {
   box-shadow: 0px 6px 15px 0px rgba(39, 76, 103, 0.1);
   padding: 10px 0;
 }
-main article .cards .card p {
+main #article-main .cards .card p {
   max-width: auto;
   padding: 0 10vw;
 }
-main article .cards .card h3 {
+main #article-main .cards .card h3 {
   text-align: center;
   color: hsl(275deg, 55%, 33%);
   font-weight: bolder;
 }
-main article .cards .card .lesmerBtn {
+main #article-main .cards .card .lesmerBtn {
   text-decoration: none;
   padding: 7px 10px;
   background-color: hsl(17deg, 100%, 62%);
@@ -134,8 +146,61 @@ main article .cards .card .lesmerBtn {
   font-size: 12px;
 }
 
+
 @media screen and (min-width: 960) {
   header a:hover {
     opacity: 50%;
   }
+
+footer {
+  background-color: hsl(275deg, 55%, 33%);
+  height: auto;
+  color: #F3EAF6;
+  margin: 0 auto;
+  text-align: center;
+  width: 100vw;
+}
+footer img {
+  max-width: 100vw;
+  bottom: 2vh;
+  position: relative;
+}
+footer h3 {
+  text-transform: uppercase;
+}
+footer p {
+  font-size: 15px;
+}
+footer .footer__adresse, footer .footer__some, footer .footer__kontakt {
+  padding-bottom: 3vh;
+}
+footer .footer__kontakt {
+  padding-bottom: 50px;
+}
+footer .footer__some--icons {
+  width: 50vw;
+  margin: 5vh auto 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .footer__bar {
+  background-color: hsl(261deg, 43%, 85%);
+  color: #3E3E3E;
+  padding: 12px;
+  max-width: 100vw;
+}
+footer .footer__bar #footerBtn {
+  padding: 15px;
+  background-color: hsl(261deg, 43%, 85%);
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 15px;
+  border: none;
+  cursor: pointer;
+}
+footer .footer__bar #footerBtn .pil {
+  width: 18px;
+  top: -10px;
+
 }/*# sourceMappingURL=main.css.map */
