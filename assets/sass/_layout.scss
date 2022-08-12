@@ -7,6 +7,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: $roboto;
+    line-height: 140%;
 }
 
 header {
@@ -214,6 +215,9 @@ footer {
     }
     p {
         font-size: 15px;
+    }
+    .footer__googlemaps {
+        display: none;
     }
 
     .footer__adresse, .footer__some, .footer__kontakt {
