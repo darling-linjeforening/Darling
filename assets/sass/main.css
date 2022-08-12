@@ -157,11 +157,9 @@ main #article-main .cards .card .lesmerBtn {
   width: 18vw;
   font-size: 12px;
 }
-
 main #article-main .cards .card__dots {
   display: none;
 }
-
 
 footer {
   background-color: hsl(275deg, 55%, 33%);
@@ -215,14 +213,36 @@ footer .footer__bar #footerBtn .pil {
   top: -10px;
 }
 
-
 .article-klassisk {
-  margin: 2em auto;
-  max-width: 60vw;
+  margin: 0 auto;
+  max-width: 80vw;
+  color: #3E3E3E;
+}
+.article-klassisk h2 {
+  color: hsl(275deg, 55%, 33%);
+  font-weight: bold;
+}
+.article-klassisk h3 {
+  margin: 2em 0 1em;
+}
+.article-klassisk .paragraf-klassisk {
+  max-width: 70ch;
+  margin: 0 auto;
+  margin: 1em 0;
+}
+.article-klassisk .bilde-klassisk {
+  max-width: 80vw;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px 0px rgba(39, 76, 103, 0.1);
+  margin: 0 auto;
+}
+.article-klassisk .kontaktOss {
+  font-weight: bold;
+  color: hsl(275deg, 55%, 33%);
 }
 
-.paragraf-klassisk {
-  max-width: 70ch;
+.article-klassisk:last-child .paragraf-klassisk:last-child {
+  margin: 0 0 10vh;
 }
 
 @media screen and (min-width: 500px) {
@@ -242,6 +262,9 @@ footer .footer__bar #footerBtn .pil {
     padding: 0;
     align-self: center;
   }
+  header nav .logo img:hover {
+    opacity: 0.5;
+  }
   header nav #dropdown {
     grid-column: 2;
     grid-row: 1;
@@ -259,14 +282,6 @@ footer .footer__bar #footerBtn .pil {
   }
   header nav .some img:hover {
     opacity: 0.5;
-  }
-  main #article-header {
-    background-color: hsl(17deg, 100%, 62%);
-
-
-@media screen and (min-width: 500px) {
-  header a:hover {
-    opacity: 50%;
   }
   main #article-header {
     display: none;
@@ -335,6 +350,20 @@ footer .footer__bar #footerBtn .pil {
   main #article-main .cards .card__dots {
     display: block;
     margin-top: -50px;
-
+  }
+  .article-klassisk {
+    margin: 0 auto;
+    max-width: 30vw;
+  }
+  .article-klassisk .paragraf-klassisk {
+    max-width: 70ch;
+    margin: 0 auto;
+    margin: 2em 0;
+  }
+  .article-klassisk .bilde-klassisk {
+    max-width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px 0px rgba(39, 76, 103, 0.1);
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */
