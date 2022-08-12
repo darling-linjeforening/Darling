@@ -6,6 +6,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  line-height: 140%;
 }
 
 header {
@@ -180,6 +181,9 @@ footer h3 {
 footer p {
   font-size: 15px;
 }
+footer .footer__googlemaps {
+  display: none;
+}
 footer .footer__adresse, footer .footer__some, footer .footer__kontakt {
   padding-bottom: 3vh;
 }
@@ -351,6 +355,7 @@ footer .footer__bar #footerBtn .pil {
     display: block;
     margin-top: -50px;
   }
+
   .article-klassisk {
     margin: 0 auto;
     max-width: 30vw;
@@ -365,5 +370,42 @@ footer .footer__bar #footerBtn .pil {
     border-radius: 10px;
     box-shadow: 0px 6px 15px 0px rgba(39, 76, 103, 0.1);
     margin: 0 auto;
+
+  footer .footer__content {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10vh;
+  }
+  footer .footer__content .footer__googlemaps {
+    display: block;
+  }
+  footer .footer__content .footer__adresse, footer .footer__content .footer__kontakt {
+    padding-bottom: 0%;
+  }
+  footer .footer__content .footer__adresse h3, footer .footer__content .footer__kontakt h3 {
+    padding-bottom: 30px;
+  }
+  footer .footer__content .footer__some {
+    padding-bottom: 0;
+    margin-top: 4.2vh;
+  }
+  footer .footer__content .footer__some .footer__some--icons {
+    width: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  footer img {
+    bottom: 7vh;
+  }
+  footer .footer__bar {
+    padding: 0px;
+  }
+  footer .footer__bar #footerBtn {
+    bottom: 5px;
+
   }
 }/*# sourceMappingURL=main.css.map */
