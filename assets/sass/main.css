@@ -2,10 +2,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 body {
   background-color: hsl(261deg, 43%, 85%);
-  max-width: 100vw;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  max-width: 100vw;
   font-family: "Roboto", sans-serif;
+}
+
+header {
+  max-height: 10vh;
+  background-color: hsl(275deg, 55%, 33%);
+}
+header .logo {
+  max-width: 50vw;
+}
+header a {
+  color: white;
+}
+header #dropdown {
+  display: flex;
+  justify-content: end;
+}
+header #dropdown .dropdown__content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 80vw;
+  background-color: hsl(275deg, 55%, 33%);
+}
+header #dropdown .dropdown__content #dropdown__btn--close {
+  justify-content: end;
+}
+header #dropdown .dropdown__content a {
+  text-decoration: none;
+  padding: 2rem 2rem 0;
 }
 
 main {
@@ -78,4 +108,5 @@ main article .cards .card .lesmerBtn {
   display: block;
   width: 18vw;
   font-size: 12px;
+  
 }/*# sourceMappingURL=main.css.map */
