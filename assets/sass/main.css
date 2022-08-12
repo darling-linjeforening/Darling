@@ -28,7 +28,7 @@ header nav .logo a img {
 }
 header nav .logo #dropdown__btn {
   justify-self: end;
-  font-size: 2em;
+  font-size: 2.5em;
   color: white;
   grid-column: 2;
   grid-row: 1;
