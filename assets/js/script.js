@@ -13,9 +13,9 @@ function handleTabletChange(e) {
     dropdownBtn.style.display = "none";
     dropdownBtnClose.style.display = "none";
 
+    // switching classes depending on desktop and mobile
     dropdownContent.classList.remove("dropdown__content");
     dropdownContent.classList.add("dropdown__content--desktop");
-
     }
 
   else {
@@ -23,13 +23,15 @@ function handleTabletChange(e) {
 
         dropdownContent.classList.add("dropdown__content");
 
-        dropdownBtn.style.display = "block";
+        dropdownBtn.style.display = "inline";
         dropdownBtnClose.style.display = "block";
 
+        // show menu when clicking on the hamburger menu
         dropdownBtn.onclick = function() {
             dropdown.style.visibility = "visible";
         }
     
+        // hide menu when clicking on the cross
         dropdownBtnClose.onclick = function() {
             dropdown.style.visibility = "hidden";
         }

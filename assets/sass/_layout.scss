@@ -11,33 +11,42 @@ body {
 }
 
 header {
-    max-height: 16vh;
+    max-height: 8em;
     background-color: $royal;
     // box-shadow: 0px 6px 15px 0px rgba(39,76,103,0.10);
 
     nav {
 
         .logo {
+            display: grid;
+            align-items: center;
+            padding: 2em 2em 2em 0;
 
             a {
+                grid-column: 1;
+                grid-row: 1;
+                max-height: 4em;
 
                 img {
-                    max-height: 8vh;
-                    padding: 4vh 0;
-                    // display: flex;
-                    // justify-self: left;
+                    max-height: 4em;
+                    // padding: 4vh 0;
                 }
+                
             }
-        }
 
-        #dropdown__btn {
-            align-self: flex-end;
-            font-size: 2em;
-            position: absolute;
-            top: 0;
-            right: 0;
-            margin: 5vh 8vw;
-            padding: 2vh 0;
+            #dropdown__btn {
+                justify-self: end;
+                font-size: 2em;
+                // position: absolute;
+                // top: 0;
+                // right: 0;
+
+                // margin: 0 8vw;
+                // padding: 4vh 0;
+                color: white;
+                grid-column: 2;
+                grid-row: 1;
+            }
         }
 
         a {

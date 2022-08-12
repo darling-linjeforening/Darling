@@ -1,25 +1,33 @@
 @media screen and (min-width: 500px) {
     header {
+        max-height: 4em;
 
         nav {
             display: grid;
             grid-template-rows: 1fr;
             grid-template-columns: 1fr 3fr 1fr;
             align-items: center;
-            padding: .5em 1em;
+            // padding: .5em 1em;
 
             .logo {
                 grid-column: 1;
                 grid-row: 1;
 
-                img {
-                    max-height: 5vh;
-                    padding: 0;
-                    align-self: center;
-                }
+                padding: .5em .5em .5em 0;
+                max-height: 2em;
 
-                img:hover {
-                    opacity: .5;
+                a {
+                    max-height: 2em;
+
+                    img {
+                        max-height: 2em;
+                        padding: 0 .5em;
+                        align-self: center;
+                    }
+    
+                    img:hover {
+                        opacity: .5;
+                    }
                 }
             }
 
@@ -33,11 +41,12 @@
                 display: flex;
                 grid-column: 3;
                 grid-row: 1;
-                max-height: 5vh;
+                max-height: 2em;
                 justify-content: end;
 
                 img {
                     margin: 0 1em 0;
+                    max-height: 2em;
                 }
 
                 img:hover {
