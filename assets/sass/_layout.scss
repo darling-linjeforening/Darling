@@ -19,11 +19,14 @@ header {
 
         .logo {
 
-            img {
-                max-height: 8vh;
-                padding: 4vh 0;
-                display: flex;
-                justify-self: left;
+            a {
+
+                img {
+                    max-height: 8vh;
+                    padding: 4vh 0;
+                    // display: flex;
+                    // justify-self: left;
+                }
             }
         }
 

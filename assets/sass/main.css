@@ -13,11 +13,9 @@ header {
   max-height: 16vh;
   background-color: hsl(275deg, 55%, 33%);
 }
-header nav .logo img {
+header nav .logo a img {
   max-height: 8vh;
   padding: 4vh 0;
-  display: flex;
-  justify-self: left;
 }
 header nav #dropdown__btn {
   align-self: flex-end;
