@@ -261,10 +261,42 @@ footer {
 
 // enkel styling til de andre sidene
 .article-klassisk {
-    margin: 2em auto;
-    max-width: 60vw;
+    margin: 0 auto;
+    max-width: 80vw;
+    color: $font;
+
+    h2 {
+        color: $royal;
+        font-weight: bold;
+    }
+
+    h3 {
+        margin: 2em 0 1em;
+    }
+
+    .paragraf-klassisk {
+        max-width: 70ch;
+        margin: 0 auto;
+        margin: 1em 0;
+    }
+    
+    .bilde-klassisk {
+        max-width: 80vw;
+        border-radius: 10px;
+        box-shadow: 0px 6px 15px 0px rgba(39, 76, 103, 0.10);
+        margin: 0 auto;
+    }
+
+    .kontaktOss {
+        font-weight: bold;
+        color: $royal;
+    }
 }
 
-.paragraf-klassisk {
-    max-width: 70ch;
+.article-klassisk:last-child {
+
+    .paragraf-klassisk:last-child {
+        margin: 0 0 10vh;
+    }
 }
+
