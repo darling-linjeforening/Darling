@@ -1,0 +1,35 @@
+@use "../components/button";
+@use "../colors";
+
+.position__card {
+    min-height: 20vh;
+    background-color: hsla(275, 55%, 33%, 0.102);
+    border-radius: 15px;
+    margin: 10vh 10vw;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.position__card--deadline {
+    font-style: italic;
+}
+
+.position__card--buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company__logo {
+    max-width: 60%;
+    max-height: 50%;
+    align-self: center;
+}
+
+.apply__button {
+    background-color: colors.$sommereng;
+}
+
+.readmore__button {
+    background-color: colors.$solsikke;
+}

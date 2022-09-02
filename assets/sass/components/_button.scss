@@ -1,0 +1,15 @@
+@use "../colors";
+
+.button {
+    text-decoration: none;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 6px 15px 0px rgba(39,76,103,0.10);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px auto 10px auto;
+    display: block;
+    width: 18vw;
+    font-size: 12px;
+}
