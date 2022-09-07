@@ -349,6 +349,40 @@ footer .footer__bar #footerBtn .pil {
   color: hsl(275deg, 55%, 33%);
 }
 
+.text-container {
+  background-color: rgb(255, 193, 78);
+  position: relative;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  padding: 3em;
+  max-width: 50%;
+  font-size: 20px;
+  line-height: normal;
+}
+.text-container h2 {
+  text-align: center;
+}
+
+.blob-container {
+  position: absolute;
+  top: 10%;
+  left: 95%;
+  height: 20vw;
+  width: 20vw;
+  color: whitesmoke;
+  background-color: rgb(38, 128, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16% 84% 19% 81%/57% 31% 69% 43%;
+  overflow: hidden;
+}
+.blob-container p {
+  padding: 20%;
+  font-size: 1.5vw;
+  line-height: normal;
+}
+
 @media screen and (min-width: 500px) {
   header {
     max-height: 4em;
