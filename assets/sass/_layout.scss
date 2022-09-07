@@ -332,7 +332,8 @@ footer {
 
 .text-container {
 
-    background-color: rgb(255, 193, 78);
+    background: rgb(255,222,168);
+background: linear-gradient(133deg, rgba(255,222,168,1) 18%, rgba(254,200,78,1) 100%);
     position: relative;
     margin-bottom: 100px;
     border-radius: 30px;
@@ -351,7 +352,8 @@ footer {
     height: 20vw;
     width: 20vw;
     color: whitesmoke;
-    background-color: rgb(38, 128, 0);
+    background: rgb(34,193,195);
+background: linear-gradient(124deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
