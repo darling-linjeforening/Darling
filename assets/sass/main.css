@@ -23,9 +23,14 @@
   padding-bottom: 14vh;
 }
 
+@media (min-width: 600px) {
+  .position__card {
+    max-width: 35vw;
+  }
+}
 .position__card {
   min-height: 20vh;
-  max-width: 35vw;
+  min-width: 35vw;
   background-color: hsla(275deg, 55%, 33%, 0.102);
   border-radius: 5%;
   box-shadow: 0px 6px 15px 0px rgba(39, 76, 103, 0.1);
