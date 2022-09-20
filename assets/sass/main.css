@@ -253,7 +253,6 @@ footer {
   color: #F3EAF6;
   margin: 0 auto;
   text-align: center;
-  width: 100vw;
 }
 footer img {
   max-width: 100vw;
@@ -347,6 +346,41 @@ footer .footer__bar #footerBtn .pil {
   font-size: 25px;
   padding-top: 7vh;
   color: hsl(275deg, 55%, 33%);
+}
+
+.text-container {
+  background: rgb(227, 141, 2);
+  background: linear-gradient(133deg, rgb(224, 139, 2) 18%, rgb(254, 200, 78) 100%);
+  position: relative;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  padding: 3em;
+  max-width: 50%;
+  font-size: 20px;
+  line-height: normal;
+}
+.text-container h2 {
+  text-align: center;
+}
+
+.blob-container {
+  position: absolute;
+  top: 10%;
+  left: 95%;
+  height: 20vw;
+  width: 20vw;
+  color: whitesmoke;
+  background: rgb(10, 147, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16% 84% 19% 81%/57% 31% 69% 43%;
+  overflow: hidden;
+}
+.blob-container p {
+  padding: 20%;
+  font-size: 1.5vw;
+  line-height: normal;
 }
 
 @media screen and (min-width: 500px) {
