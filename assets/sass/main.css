@@ -166,7 +166,8 @@ main #article-header {
 main #article-header h2 {
   max-width: 20ch;
 }
-main #article-header h2, main #article-header p {
+main #article-header h2,
+main #article-header p {
   color: #F3EAF6;
   line-height: 130%;
 }
@@ -268,7 +269,9 @@ footer p {
 footer .footer__googlemaps {
   display: none;
 }
-footer .footer__adresse, footer .footer__some, footer .footer__kontakt {
+footer .footer__adresse,
+footer .footer__some,
+footer .footer__kontakt {
   padding-bottom: 3vh;
 }
 footer .footer__kontakt {
@@ -359,6 +362,7 @@ footer .footer__bar #footerBtn .pil {
   font-size: 20px;
   line-height: normal;
 }
+
 .text-container h2 {
   text-align: center;
 }
